@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode .product {
+  border-color: #333;
+  background-color: #1f1f1f;
+}
+
+body.dark-mode .basket,
+body.dark-mode .order-history,
+body.dark-mode .rating {
+  border-color: #333;
+}
+
+/* Header Section */
+#header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+body.dark-mode #header {
+  background-color: #1f1f1f;
+}
+
+#logo {
+  width: 100px;
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode-button:hover {
+  background-color: #45a049;
+}
+
+body.dark-mode .dark-mode-button {
+  background-color: #008CBA;
+}
+
+body.dark-mode .dark-mode-button:hover {
+  background-color: #007B9E;
+}
+
+/* Product Grid */
+.products {
+  padding: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/* Product Card */
+.product {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product h3 {
+  font-size: 1.5rem;
+  margin: 15px 0 10px;
+  color: #333;
+}
+
+body.dark-mode .product h3 {
+  color: #fff;
+}
+
+.product p {
+  font-size: 1.2rem;
+  color: #4CAF50;
+  margin: 10px 0;
+}
+
+/* Add to Basket Button */
+.add-to-cart {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.add-to-cart:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.add-to-cart:active {
+  transform: scale(0.95);
+}
+
+.add-to-cart i {
+  font-size: 1.2rem;
+}
+
+/* Basket and Order History */
+.basket, .order-history, .rating {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}
+
+/* Floating Buttons */
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.circle-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.circle-button:hover {
+  background-color: #45a049;
+}
+
+#deliver-order {
+  background-color: #008CBA;
+}
+
+#deliver-order:hover {
+  background-color: #007B9E;
+}
