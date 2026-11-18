@@ -1,70 +1,89 @@
-🛒 Supermarket Web Shop
-A lightweight, responsive, and easy-to-deploy e-commerce storefront template designed for supermarkets, local retail stores, and digital product merchants.
+<div align="center">
+  <img src="logo.png" alt="Supermarket Web Shop Logo" width="120" />
+  <h1>🛒 Supermarket Web Shop</h1>
+  <p><strong>A lightweight, responsive, and zero-dependency e-commerce storefront template for supermarkets, local retail stores, and digital merchants.</strong></p>
 
-🌟 Overview
-Supermarket Web Shop is a clean frontend web application built to provide a seamless digital storefront experience. It features structured product catalogs, visual displays, and a streamlined layout that allows small business owners and independent vendors to quickly showcase and manage retail or digital product offerings online.
+  <p>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License" />
+  </p>
+</div>
 
-✨ Key Features
-Responsive Product Catalog: Clean grid layout designed to showcase multiple product categories and items effortlessly.
+---
 
-Visual Asset Integration: Pre-configured support for high-resolution product photography and brand logos.
+## 🌟 Overview
 
-Lightweight & Fast: Built with vanilla web technologies, ensuring minimal load times and zero heavy framework dependencies.
+**Supermarket Web Shop** (`supermarket-web-main`) is a clean, fast frontend web application built to provide a seamless digital storefront experience. It features structured product catalogs, visual displays, and a streamlined layout that allows small business owners and independent vendors to quickly showcase and sell articles online without needing complex backend infrastructure.
 
-Modular Structure: Easily customizable CSS styling and JavaScript logic to adapt the store to various retail niches.
+---
 
-📁 Repository Structure
-Plaintext
+## ✨ Key Features
+
+* **📱 Responsive Product Grid:** Clean, adaptable layout designed to showcase multiple product categories across desktop and mobile devices.
+* **🖼️ Rich Visual Integration:** Pre-configured support for high-resolution product photography and custom store branding.
+* **⚡ Zero-Dependency & Fast:** Built strictly with vanilla HTML, CSS, and JavaScript for instant load times and effortless hosting.
+* **🎨 Easy Customization:** Modular stylesheet and script architecture allowing quick updates to colors, prices, and catalog items.
+
+---
+
+## 📁 Repository Structure
+
+```text
 supermarket-web-main/
-├── index.html            # Main landing page and storefront interface
-├── styles.css            # Custom styling, layout grid, and UI design
-├── script.js             # Interactive frontend logic and dynamic elements
-├── logo.png              # Store branding asset
-└── product[1-9].jpg      # High-quality product catalog images
-🚀 Getting Started
-To run or test this project locally on your machine, follow these simple steps:
+├── index.html            # Main storefront interface and product layout
+├── styles.css            # Custom styling, grid system, and responsive design
+├── script.js             # Interactive frontend logic and UI behavior
+├── logo.png              # Store branding and header logo
+└── product[1-9].jpg      # Product catalog imagery
+```
 
-Prerequisites
-Any modern web browser (Google Chrome, Firefox, Microsoft Edge, Safari).
+---
 
-A code editor (such as VS Code) if you wish to modify the code.
+## 🚀 Getting Started
 
-Installation & Running Locally
-Clone the repository:
+### Prerequisites
+* Any modern web browser (Chrome, Firefox, Edge, Safari)
+* A code editor (e.g., VS Code) for customizing content
 
-Bash
-git clone https://github.com/your-username/supermarket-web-main.git
-Navigate to the project directory:
+### Running Locally
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/supermarket-web-main.git](https://github.com/your-username/supermarket-web-main.git)
+   ```
+2. **Navigate to the project folder:**
+   ```bash
+   cd supermarket-web-main
+   ```
+3. **Launch the storefront:**
+   * Double-click `index.html` to open it directly in your browser, or
+   * Run it with the **Live Server** extension in VS Code.
 
-Bash
-cd supermarket-web-main
-Open the project:
+---
 
-Simply double-click the index.html file, or
+## 🛠️ Customization Guide
 
-Open it using a local development server extension (like Live Server in VS Code).
+| Task | Action Required |
+| :--- | :--- |
+| **Update Products** | Replace `product1.jpg` – `product9.jpg` with your own images and edit item titles/prices in `index.html`. |
+| **Change Store Logo** | Overwrite `logo.png` with your brand's logo file (keep the same filename or update the `src` path). |
+| **Restyle Theme** | Modify color variables, fonts, and spacing inside `styles.css`. |
 
-🛠️ Customization
-You can easily tailor this template to fit your own business:
+---
 
-Add/Update Products: Replace the product1.jpg through product9.jpg images in the directory with your own product photos, and update the descriptions/prices inside index.html.
+## 🤝 Contributing
 
-Change Branding: Replace logo.png with your own company logo.
+Contributions, issues, and feature requests are welcome!
 
-Modify Styles: Adjust colors, fonts, and responsive breakpoints by editing styles.css.
+1. **Fork** the project
+2. **Create** your feature branch (`git checkout -b feature/NewFeature`)
+3. **Commit** your changes (`git commit -m 'Add NewFeature'`)
+4. **Push** to the branch (`git push origin feature/NewFeature`)
+5. **Open** a Pull Request
 
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+---
 
-Fork the Project
+## 📝 License
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-📝 License
-This project is open-source and available under the MIT License.
+Distributed under the **MIT License**. See `LICENSE` for more information.
